@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tasty Foods</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bootsharp/bootstrap-5.3.3-dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="tasty.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <!-- --navbar -->
+    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fw-bold" href="#">Tasty Foods</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#order">Oders</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Deals
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "href="#footer" aria-disabled="true">Locations</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- --corusal -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="t3.jpg" class=" aa d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="text-warning">Veg options</h2>
+              <p class="text-danger">Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="tast2.webp" class=" aa d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="text-dark">Non veg options</h2>
+              <p class="text-dark">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="tast3.webp" class=" aa d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="text-dark">Third slide label</h2>
+              <p class="text-dark">Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+<!-- --oredersection -->
+<div class="container " id="order">
+    <h1 class="text-center">Order Your Food Now..! </h1>
+
+    <div class="row">
+        <div class="col-4 ">
+            <div class="card    border-2 border-warning" style="width: 18rem; height: ;">
+                <img src="t6.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Honey Appam</h5>
+                  <p class="card-text">Tasty Appam</p>
+                  <h5 class="card-text text-danger">Rs :199.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card  border-2 border-warning"  style="width: 18rem; height: ; ">
+                <img src="t2.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                   <h5 class="card-title">Frydrice</h5>
+                  <p class="card-text">Tasty Farydrice</p>
+                  <h5 class="text-danger">Rs :199.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card  border-2 border-warning" style="width: 18rem; height: ;">
+                <img src="t3.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Pizza</h5>
+                  <p class="card-text">Tasty Pizza</p>
+                  <h5 class="text-danger">Rs :199.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row my-2">
+        <div class="col-4">
+            <div class="card  border-2 border-warning" style="width: 18rem; height: ;">
+                <img src="t1.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Spring veg</h5>
+                  <p class="card-text">Tasty Spring</p>
+                  <h5 class="text-danger">Rs :199.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card  border-2 border-warning" style="width: 18rem; height: ;">
+                <img src="t5.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Stawberry Coffie</h5>
+                  <p class="card-text">Tasty Coffie</p>
+                  <h5 class="text-danger">Rs :199.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card  border-2 border-warning" style="width: 18rem; height: ;">
+                <img src="t4.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Noodeles</h5>
+                  <p class="card-text">Tasty Noodles</p>
+                  <h5 class="text-danger">Rs :199.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+
+        </div>
+    </div>
+</div>
+    <!-- --Footer -->
+    <div class="container-fluid bg-warning " id="footer">
+        <div class="row ">
+            <h1 class="text-center">Location</h1>
+            <div class="col-6">
+               <h1 class="text-white">Tasty Food Restaurant</h1>
+               <h4>Kochi</h4>
+               <h4>Kerala</h4>
+               <p>Tel: 01257998</p>
+               <p>Email: tastyfood@gmail.com</p>
+               <p>Website: www.tasty.com</p>
+            </div>
+            <div class="col-6">
+                <h1><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15679.10345241872!2d76.53482972681593!3d10.751750041277726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba873f58f7c4683%3A0x207b6fc2fb95bef8!2sKottayi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1718385880563!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
